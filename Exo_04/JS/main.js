@@ -29,7 +29,7 @@ const squares = document.querySelectorAll(".square");
 
             if (square.classList.contains('clicked')) {
                 // Si le carré a la classe 'clicked'
-                square.style.boxShadow = '0px 35px 45px -20px black';
+                square.style.boxShadow =  '0px 35px 45px -20px black';
                 square.style.borderRadius = '5%';
                 const squareBackground = window.getComputedStyle(square).color;
                 wrapper.style.background = squareBackground;
