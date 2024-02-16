@@ -1,0 +1,52 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#quotes-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10%;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 70px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.281); 
+    /* width:fit-content ; */
+    padding: 2% 10%;
+}
+
+
+p {
+    font-size: 80px;
+    font-style: italic;
+    font-family: serif;
+    margin-bottom: 50px;
+}
+
+
+span{
+font-size: 40px;
+}
+
+i {
+    box-sizing: content-box;
+    position: relative;
+    font-size: 60px;
+    right: 95%;
+    color:black;
+    
+}
+.favorite {
+    background-color: #ffeeba; /* Couleur de fond pour les citations favorites */
+}
